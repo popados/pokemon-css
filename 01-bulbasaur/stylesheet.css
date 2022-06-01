@@ -1,0 +1,126 @@
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+    width: 1440;
+    height: 400vh;
+    margin-top: 50px;
+    background-color: rgb(67,67,67);
+}
+
+a {
+text-decoration: none;
+color: green;
+}
+
+header {
+background-color: black;
+height: 40px;
+width: 100%;
+border-bottom: 1px solid red;
+position:fixed;
+z-index: 2;
+top: 0;
+opacity: 100%;
+right: 0;
+left: 0;
+}
+
+
+.wrapper {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulba-flower-one {
+    position: absolute;
+    height: 650px;
+    width: 450px;
+    margin-left: -350px;
+    margin-top: 150px;
+    background-color:green;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 400px;
+    border: 2px solid black;
+    transform: rotate(-35deg);
+}
+
+.bulba-flower-two {
+    position: absolute;
+    border:2px solid black ;
+    height: 650px;
+    width: 450px;
+    margin-left: -150px;
+    margin-top: 0px;
+    background-color:green;
+    border-top-left-radius: 600px;
+    border-bottom-right-radius: 600px;
+    transform: rotate(-25deg);
+}
+.bulba-flower-three {
+    position: absolute;
+    height: 650px;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 150px;
+    background-color:green;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 400px;
+    border: 2px solid black;
+    transform: rotate(-25deg);
+}
+
+/* .bulba-flower-four {
+    position: absolute;
+    height: 650px;
+    width: 450px;
+    margin-left: -120px;
+    margin-top: 0px;
+    background-color:green;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 400px;
+    border: 2px solid black;
+    transform: scale(1.2) rotate(5deg);
+} */
+
+
+.bulba-face{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    margin-left: -300px;
+    margin-top: 450px;
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+.bulba-body{
+    /* position: absolute;
+    height: 250px;
+    width: 150px;
+    margin-left: 0;
+    margin-top: 1200px;
+    background-color: turquoise;
+    border-bottom-right-radius: 155px; */
+}
+
+
+.bulba-ear-left {
+
+    position: absolute;
+       height:450px;
+       width: 250px;
+       margin-left: 50px;
+       margin-top: 250px;
+       background-color: turquoise;
+       border-bottom-right-radius: 350px;
+       border-top-left-radius: 350px;
+       transform: rotate(-15deg);
+}
